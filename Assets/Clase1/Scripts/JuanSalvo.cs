@@ -28,7 +28,7 @@ public class JuanSalvo : MonoBehaviour
         // Asigna a la variable '_finalMessage' la concatenación de tus variables.
 
         // _finalMessage = ... (Escribe tu código aquí)
-        _finalMessage = "¡Hola! Soy Juan Salvo, tengo X años y mido Y metros."; // Reemplaza X e Y con tus variables
+
         // Mostrar en consola
         Debug.Log(_finalMessage == null ? "¡Falta construir el mensaje!" : _finalMessage);
 
