@@ -3,10 +3,9 @@ using UnityEngine;
 
 public class JuanSalvo : MonoBehaviour
 {
-    // 1. TAREA: Declarar variables para nombre, edad, altura (float).
+    // 1. TAREA: Declarar variables para nombre, edad, altura (float) o lo que quieras.
 
-    // Escribe tus variables aquí abajo:
-
+    // Escribe tus variables aquí abajo: Recorda deben poder ser modificadas desde el inspector pero tambien ser privadas.
 
     // ---------------------------------------------------------
     // (NO TOCAR)
@@ -23,16 +22,39 @@ public class JuanSalvo : MonoBehaviour
         MostrarDatos();
     }
 
-    public void MostrarDatos() // Renombrado de OnClick a MostrarDatos para ser más semántico si se llama en Start
+    public void MostrarDatos()
     {
         // 2. TAREA: Construir la frase.
         // Asigna a la variable '_finalMessage' la concatenación de tus variables.
 
         // _finalMessage = ... (Escribe tu código aquí)
-
+        _finalMessage = "¡Hola! Soy Juan Salvo, tengo X años y mido Y metros."; // Reemplaza X e Y con tus variables
         // Mostrar en consola
-        Debug.Log(_finalMessage);
+        Debug.Log(_finalMessage == null ? "¡Falta construir el mensaje!" : _finalMessage);
 
+        // ---------------------------------------------------------
+        // Actualizamos la UI visualmente no hace falta tocar esto
+        ActualizarUI();
+        // ---------------------------------------------------------
+    }
+
+    public void Contestar()
+    {
+        // 3. TAREA: Condicionales - Responder dependiendo algun parametro como nombre,edad o altura.
+        //Ejemplo: si altura >= 2 -> "Fua estas para jugar en la NBA".
+
+        // _finalMessage = ... (Escribe tu código aquí)
+
+        // ---------------------------------------------------------
+        // Actualizamos la UI visualmente no hace falta tocar esto
+        ActualizarUI();
+        // ---------------------------------------------------------
+    }
+
+    #region No tocar
+    //----------------------No Tocar------------------------
+    private void ActualizarUI()
+    {
         // ---------------------------------------------------------
         // Actualizamos la UI visualmente no hace falta tocar esto
         if (_uiText != null)
@@ -45,4 +67,5 @@ public class JuanSalvo : MonoBehaviour
         }
         // ---------------------------------------------------------
     }
+    #endregion
 }
