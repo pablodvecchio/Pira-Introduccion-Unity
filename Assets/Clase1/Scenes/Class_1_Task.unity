@@ -744,7 +744,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 704327510}
         m_TargetAssemblyTypeName: LogButtons, Assembly-CSharp
-        m_MethodName: LogWarning
+        m_MethodName: LogWarningMessage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1060,7 +1060,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 704327510}
         m_TargetAssemblyTypeName: LogButtons, Assembly-CSharp
-        m_MethodName: LogMessage
+        m_MethodName: LogInfoMessage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1512,7 +1512,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 704327510}
         m_TargetAssemblyTypeName: LogButtons, Assembly-CSharp
-        m_MethodName: LogError
+        m_MethodName: LogErrorMessage
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1618,7 +1618,7 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 717153667
+  m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 826660174623240449, guid: 59903390378504a4389c59ed45f50998, type: 3}
