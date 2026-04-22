@@ -13,6 +13,14 @@ public class JuanSalvo : MonoBehaviour
     [SerializeField]
     private TextMeshProUGUI _uiText;
     private string _finalMessage;
+    [Header("Datos Personales")]
+    [SerializeField]
+    private string name;
+    [SerializeField]
+    private int age;
+    [SerializeField]
+    private float height;
+
 
     // ---------------------------------------------------------
 
