@@ -15,11 +15,11 @@ public class JuanSalvo : MonoBehaviour
     private string _finalMessage;
     [Header("Datos Personales")]
     [SerializeField]
-    private string name;
+    private string _name;
     [SerializeField]
-    private int age;
+    private int _age;
     [SerializeField]
-    private float height;
+    private float _height;
 
 
     // ---------------------------------------------------------
@@ -35,7 +35,7 @@ public class JuanSalvo : MonoBehaviour
         // 2. TAREA: Construir la frase.
         // Asigna a la variable '_finalMessage' la concatenación de tus variables.
 
-        // _finalMessage = ... (Escribe tu código aquí)
+        _finalMessage = "Mi nombre es " + _name + ". Tengo " + _age + " años y mido " + _height + ".";
 
         // Mostrar en consola
         Debug.Log(_finalMessage == null ? "¡Falta construir el mensaje!" : _finalMessage);
