@@ -6,19 +6,20 @@ public class LogButtons : MonoBehaviour
     // TAREA 1: Haz que este botón muestre un mensaje normal en consola (color blanco)
     public void ShowLogInfoMessage()
     {
-        // Escribe tu código aquí:
+       Debug.Log("Esto es un mensaje informativo para corroborar que el botón funciona bien.");
     }
 
     // TAREA 2: Haz que este botón muestre una ADVERTENCIA (triángulo amarillo)
     public void ShowLogWarningMessage()
     {
-        // Escribe tu código aquí:
+        Debug.LogWarning("Esto es un mensaje de Warning con un triángulo amarillo patito.");
     }
 
     // TAREA 3: Haz que este botón muestre un ERROR (octágono rojo)
     // PLUS: Investiga cómo hacer que Unity se PAUSE automáticamente al pulsar este botón.
     public void ShowLogErrorMessage()
     {
-        // Escribe tu código aquí:
+        Debug.LogError("Esto es un mensaje de 'todo mal loco, no puedo seguir así'.");
+        Debug.Break();
     }
 }

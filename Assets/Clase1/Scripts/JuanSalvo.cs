@@ -38,7 +38,7 @@ public class JuanSalvo : MonoBehaviour
         _finalMessage = "Mi nombre es " + _name + ". Tengo " + _age + " años y mido " + _height + ".";
 
         // Mostrar en consola
-        Debug.Log(_finalMessage == null ? "¡Falta construir el mensaje!" : _finalMessage);
+        //Debug.Log(_finalMessage == null ? "¡Falta construir el mensaje!" : _finalMessage);
 
         // ---------------------------------------------------------
         // Actualizamos la UI visualmente no hace falta tocar esto

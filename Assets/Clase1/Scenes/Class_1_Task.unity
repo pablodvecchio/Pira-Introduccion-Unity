@@ -522,6 +522,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _uiText: {fileID: 398863786}
+  _name: Juan Salvo
+  _age: 32
+  _height: 1.77
 --- !u!1 &398863784
 GameObject:
   m_ObjectHideFlags: 0
@@ -774,7 +777,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -5518990023937178466, guid: 187fc1160458a2547b21080ceff2dde1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1090,7 +1093,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -5518990023937178466, guid: dc79ab8dd9a5a424bb78e942e19447a4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1542,7 +1545,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: -5518990023937178466, guid: db622c51088f56a4d8da9f108bd94663, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
