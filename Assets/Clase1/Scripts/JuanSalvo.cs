@@ -50,8 +50,13 @@ public class JuanSalvo : MonoBehaviour
     {
         // 3. TAREA: Condicionales - Responder dependiendo algun parametro como nombre,edad o altura.
         //Ejemplo: si altura >= 2 -> "Fua estas para jugar en la NBA".
+        if (_age < 45) 
 
-        // _finalMessage = ... (Escribe tu código aquí)
+            _finalMessage = "Por tu edad puedo intuir que sos el Juan Salvo de los cómics.";
+
+        else
+
+            _finalMessage = "Por tu edad puedo intuir que sos el Juan Salvo de Necflis.";
 
         // ---------------------------------------------------------
         // Actualizamos la UI visualmente no hace falta tocar esto
